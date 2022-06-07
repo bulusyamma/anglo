@@ -1,0 +1,28 @@
+<div>
+  <mat-form-field appearance="fill">
+    <mat-select
+      #modelNameSelect
+      (selectionChange)="onModelNameChanged(modelNameSelect.value)"
+    >
+      <mat-option *ngFor="let modelName of modelNames" value="{{ modelName }}">
+        {{ modelName }}
+      </mat-option>
+    </mat-select>
+    <mat-hint align="end">Select a model name</mat-hint>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-select
+      #commodityNameSelect
+      (selectionChange)="onCommodityNameChanged(commodityNameSelect.value)"
+    >
+      <mat-option
+        *ngFor="let commodityName of commodityNames"
+        value="{{ commodityName }}"
+      >
+        {{ commodityName }}
+      </mat-option>
+    </mat-select>
+    <mat-hint align="end">Select a commodity name</mat-hint>
+  </mat-form-field>
+</div>

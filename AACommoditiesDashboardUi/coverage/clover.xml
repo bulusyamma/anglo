@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1654369926069" clover="3.2.0">
+  <project timestamp="1654369926070" name="All files">
+    <metrics statements="25" coveredstatements="7" conditionals="1" coveredconditionals="0" methods="12" coveredmethods="0" elements="38" coveredelements="7" complexity="0" loc="25" ncloc="25" packages="2" files="2" classes="2"/>
+    <package name="app.commodities.api">
+      <metrics statements="24" coveredstatements="6" conditionals="1" coveredconditionals="0" methods="12" coveredmethods="0"/>
+      <file name="commodities.service.ts" path="C:\SIE-Shared\Projects\Tests\Anglo\boiler-plate\AACommoditiesDashboardUi\src\app\commodities\api\commodities.service.ts">
+        <metrics statements="24" coveredstatements="6" conditionals="1" coveredconditionals="0" methods="12" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="environments">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="environment.ts" path="C:\SIE-Shared\Projects\Tests\Anglo\boiler-plate\AACommoditiesDashboardUi\src\environments\environment.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

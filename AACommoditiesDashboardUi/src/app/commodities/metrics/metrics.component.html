@@ -1,0 +1,8 @@
+<commodities-filter
+  (modelNameChanged)="modelNameChanged($event)"
+  (commodityNameChanged)="commodityNameChanged($event)"
+  [modelNames]="modelNames"
+  [commodityNames]="commodityNames"
+></commodities-filter>
+
+<metrics-detail [model]="selectedModel"></metrics-detail>

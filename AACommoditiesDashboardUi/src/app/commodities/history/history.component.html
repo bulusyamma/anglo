@@ -1,0 +1,13 @@
+<mat-card>
+  <ag-grid-angular
+    style="width: 620px; height: 515px"
+    class="ag-theme-alpine"
+    [rowData]="data"
+    [columnDefs]="columns"
+    [pagination]="gridOptions.pagination" 
+    [paginationPageSize]="gridOptions.paginationPageSize"
+  >
+  </ag-grid-angular>
+</mat-card>
+
+<!-- <mat-progress-bar *ngIf="progress" mode="indeterminate" @inflate></mat-progress-bar> -->
